@@ -3,6 +3,7 @@ import express from "express";
 const app = express();
 const PORT = 3000;
 
+// @ts-ignore
 app.get("/", (_req, res) => {
     res.send(`
     <!DOCTYPE html>
