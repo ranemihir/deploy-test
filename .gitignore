@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+
+# TypeScript build output
+dist/
+build/
+out/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional test / coverage
+coverage/
+.nyc_output/
+
+# Optional: local keys or SSH
+*.pem
+
+# Optional: compiled JS
+*.js
+*.js.map
+
+# Optional: lock files (if you don't want them in repo)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
